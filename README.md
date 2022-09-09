@@ -14,11 +14,15 @@ cp .env.example .env
     
 ./vendor/bin/sail up
 
+```
+```
 ./vendor/bin/sail php artisan key:generate
 
 ./vendor/bin/sail composer install
 
-./vendor/bin/sail npm run build
+npm install
+
+npm run build
 
 ./vendor/bin/sail php artisan migrate
 
